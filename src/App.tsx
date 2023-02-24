@@ -1,10 +1,19 @@
-import React from 'react';
-import './App.css';
+import React, { Suspense } from "react";
+import { Route, Routes } from "react-router-dom";
+import "./App.css";
+import Navbar from "./Components/Navbar";
+import Home from "./Pages/Home";
 
 function App() {
   return (
-    <h1 className='bg-red-500 text-6xl'>Test</h1>
-    <p>test</p>
+    <>
+      <Suspense>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </Suspense>
+    </>
   );
 }
 

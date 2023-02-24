@@ -1,0 +1,19 @@
+.theme-default {
+  --primary: 95 34 123;
+  --primary-content: 255 255 255;
+  --secondary: 201 44 115;
+  --secondary-content: 255 255 255;
+  --accent: 162 195 9;
+  --accent-content: 44 39 56;
+  --neutral: 255 255 255;
+  --baseColor: 44 39 56;
+  --container: 237 237 237;
+  --outline: 224 224 224;
+  --success: 20 163 139;
+  --warning: 242 148 0;
+  --info: 115 97 216;
+  --error: 255 113 113;
+  --disabled: 198 198 198;
+  --transparent: transparent;
+  --help-text: 102 102 102;
+}
